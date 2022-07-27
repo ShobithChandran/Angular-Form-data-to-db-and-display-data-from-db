@@ -1,0 +1,10 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "Name": "shobith",
+      "Email": "shobith@gmail.com",
+      "Message": "Hai"
+    }
+  ]
+}

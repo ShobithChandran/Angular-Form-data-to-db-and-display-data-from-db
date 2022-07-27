@@ -1,0 +1,39 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+  <div>
+    <label>
+      Name:
+      <input class="name" formControlName="Name" placeholder="Your name" required="true">
+    </label>
+  </div><br>
+  <div>
+    <label>
+      Email:
+      <input class="mail" formControlName="Email" placeholder="Your email" required="true">
+    </label>
+  </div><br>
+  <div>
+    <label>
+      Message:
+      <input class="mess" formControlName="Message" placeholder="Your message" required="true">
+    </label>
+  </div><br>
+  <button type="submit" onClick="window.location.reload();">Send</button>
+</form>
+
+<style>
+  button {
+    margin-left: 70px;
+  }
+
+  .name {
+    margin-left: 39px;
+  }
+
+  .mail {
+    margin-left: 38px;
+  }
+
+  .mess {
+    margin-left: 20px;
+  }
+</style>

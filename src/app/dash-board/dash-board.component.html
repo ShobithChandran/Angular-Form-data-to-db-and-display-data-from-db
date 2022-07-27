@@ -1,0 +1,25 @@
+<br><br>
+<p>Employee Details</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Message</th>
+  </tr>
+  <tr *ngFor="let detail of cusList">
+    <td>{{ detail.Name }} </td>
+    <td>{{ detail.Email }}</td>
+    <td>{{ detail.Message }}</td>
+  </tr>
+</table>
+
+<style>
+  table,
+  td,
+  th {
+    border: 1px solid black;
+  }
+  button{
+    margin-left: 65px;
+  }
+</style>
